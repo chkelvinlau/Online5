@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+    </head>
+    
+    <style>   
+        body {
+            margin:0;
+        }
+        
+        #part1 {
+            width:100%;
+            height:75vh;
+            background-image:url(http://cdn.wallpapersafari.com/25/40/Nbxf5r.jpg);
+            background-repeat: no-repeat;
+            background-size:100% auto; 
+        }
+        
+        #tagline1 {
+            background-color:rgb(0,200,0);
+            width:50vw;
+            height:10vh;
+            position:absolute;
+            top:25%;
+            right:25%;
+        }
+        
+        /* up to 400px, top tagline will be blue background */
+        @media only screen and (max-width:400px){
+            #tagline1 {
+                background-color:royalblue;
+            }
+        }
+        
+        #part2 {
+            width:100%;
+            height:50vh;
+        }
+        
+        .profilename {
+            position:relative;
+            bottom:190px;
+        }
+        
+        #part3 {
+            width:100%;
+            height:60vh;
+            background-color:#E8930C;
+        }
+        
+        #title1 {
+            width:10vw;
+            height:10vh;
+            background-color:aqua;
+            position:absolute;
+            top:145%;
+            left:8%;
+            font-size:150%;
+        }
+        
+        #title2 {
+            width:10vw;
+            height:10vh;
+            background-color:aqua;
+            position:absolute;
+            top:145%;
+            left:27%;  
+            font-size:150%;
+        }
+        
+        #title3 {
+            width:10vw;
+            height:10vh;
+            background-color:aqua;
+            position:absolute;
+            top:147%;
+            left:47%;   
+            font-size:150%;
+        }
+        
+        #title4 {
+            width:10vw;
+            height:10vh;
+            background-color:aqua;
+            position:absolute;
+            top:145%;
+            right:24%; 
+            font-size:150%;
+        }
+        
+        #title5 {
+            width:10vw;
+            height:10vh;
+            background-color:aqua;
+            position:absolute;
+            top:145%;
+            right:4%;  
+            font-size:150%;
+        }
+        
+        #part4 {
+            width:100%;
+            height:75vh;
+            background-color:#11B4FF;
+        }
+        
+        #biobox {
+            width:45vw;
+            height:50vh;
+            float:right;
+            position:relative;
+            top:7%;
+            right:5%;
+        }
+        
+        .bioheader {
+            font-size:300%;
+        }
+        
+        #tagline2 {
+            background-color:#FF9E29;
+            width:55vw;
+            height:20vh;
+            position:relative;
+            top:45%;
+            left:25%;
+        }
+        
+        /* between 400px and 800px, bottom tagline will be yellow background */
+        @media only screen and (min-width:400px) and (max-width:800px){
+            #tagline2 {
+                background-color:yellow;
+            }
+        }
+        
+        .tagline2text {
+            margin:0;
+        }
+        
+        #colourbutton {
+            width:17vw;
+            height:7vh;
+        }
+        
+        #biosquare {
+            width:30vw;
+            height:60vh;
+            background-color:green;
+            float:left;
+            position:relative;
+            top:10%;
+            left:5%;
+            transition:background-color 1s;
+        }
+        
+        #ppbutton {
+            width:20vw;
+            height:6vh;
+            position:absolute;
+            bottom:-21%;
+            left:40%;
+        }
+        
+        .profilepic {
+            width:25%;
+            height:auto;
+            position:relative;
+            top:-175px; 
+            transition:width 1s;
+        }
+        
+        #bannerbutton {
+            width:20vw;
+            height:9vh;
+            position:absolute;
+            bottom:-90%;
+            left:30%;
+        }
+        
+        #part5 {
+            width:100%;
+            height:75vh;
+            background-image:url(http://bit.ly/2fgJNpx);
+            background-repeat: no-repeat;
+            background-size:100% auto; 
+            transition:background-image 3s;
+        }
+        
+        #bigbcitbutton {
+            width:9vw;
+            height:7vh;
+            position:absolute;
+            left:35%;
+            top:133%;
+        }
+        
+        #smallbcitbutton {
+            width:9vw;
+            height:7vh;
+            position:absolute;
+            left:50%;
+            top:133%;
+        }
+        
+        .images5 {
+            width:17%;
+            height:auto;
+            margin:1%;
+            position:relative;
+            top:39%;
+            transition:width 1s;
+        }
+        
+        #bootstrapbutton {
+            width:9vw;
+            height:12vh;
+            position:absolute;
+            left:1%;
+            top:128%;
+        }
+    </style>
+    <body>
+        <div id="top"></div>
+        <div id="middle"></div>
+        <div id="bottom"></div>
+        <script src="ass1js.js"></script>
+    </body>
+</html>
